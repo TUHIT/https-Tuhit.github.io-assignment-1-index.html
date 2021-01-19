@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	body{
+		background: #AA82FF;
+	}
+</style>
+<script type="text/javascript" src="validate.js"></script>
+</head>
+<body>
+<form action="#" name="Patient Registration" onSubmit="return(validate());">
+<table cellpadding="2" width="20%" bgcolor="#AB82FF" align="left"
+cellspacing="2">
+
+<tr>
+<td colspan=2>
+<center><font size=4><b>Patient Registration Form</b></font></center>
+</td>
+</tr>
+
+<tr>
+<td>Name</td>
+<td><input type=text name=textnames id="textname" size="30"></td>
+</tr>
+<tr>
+<td>Address:</td>
+<td><textarea cols="40" rows="4"></textarea></td>
+</tr>
+<tr>
+<td>Aadhar number</td>
+<td><input type="text" name="Aadhar number" id="Aadhar number"
+size="30"></td>
+</tr>
+<tr>
+<td>Date</td>
+<td><input type="date" name="date" min="01-04-1998" max="01-04-2020" ></td>
+</tr>
+<tr>
+<td>Blood Group</td>
+<td><select Name="Blood Group">
+<option value="-1" selected>select..</option>
+<option value="A">A</option>
+<option value="A++">A+</option>
+<option value="B+">B+</option>
+<option value="AB">AB</option>
+</select></td>
+</tr>
+<tr>
+<td>EmailId</td>
+<td><input type="text" name="emailid" id="emailid" size="30"></td>
+</tr>
+<tr>
+<td>Temperature</td>
+<td><input type="range" name="dob" id="range" size="30"></td>
+</tr>
+<td>Mobile Number:</td>
+<td><input type="text" name="phone_no" placeholder="10 digits number"></td>
+<tr>
+<td><input type="reset"></td>
+<td colspan="2"><input type="submit" value="Submit Data" /></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
